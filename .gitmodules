@@ -1,0 +1,6 @@
+[submodule "fullstack-course5"]
+	path = fullstack-course5
+	url = https://github.com/jhu-ep-coursera/fullstack-course5.git
+[submodule "fullstack-course4"]
+	path = fullstack-course4
+	url = https://github.com/jhu-ep-coursera/fullstack-course4.git

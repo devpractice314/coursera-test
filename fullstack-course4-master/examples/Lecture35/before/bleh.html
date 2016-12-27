@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tessfesf</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+        function setCurrentCrowns() {
+            var crowns = document.getElementById("crowns");
+
+            var d = new Date();
+            var n = d.getTime();
+            console.log(n);
+            var x = (n - 1482124260*1000)*3250/(86400000*7);
+            crowns.innerHTML = Math.round(x);
+        }
+        
+        </script>
+    </head>
+    <body onload="setCurrentCrowns();">
+    <h1 id="crowns">
+        </h1>
+    </body>
+</html>

@@ -40,7 +40,10 @@ function handleResponse(request,
                         responseHandler) {
   if ((request.readyState == 4) &&
      (request.status == 200)) {
-    responseHandler(request);
+    responseHandler(request, true);
+  }
+  else{
+responseHandler(request, false);
   }
 }
 
